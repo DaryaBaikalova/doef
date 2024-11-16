@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "doef"
+version = "0.1.0"
+description = ""
+authors = ["DaryaBaikalova <61295655+DaryaBaikalova@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gekko = "^1.2.1"
+matplotlib = "^3.9.2"
+ipykernel = "^6.29.5"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
